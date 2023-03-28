@@ -11,7 +11,6 @@ import java.util.Scanner;
 public class ApiApp {
   public static void main(String[] args) throws Exception {
     ConnectionFactory connectionFactory = initMQ();
-    // Тут пишем создание PersonApi, запуск и демонстрацию работы
 
     Scanner scanner = new Scanner(System.in);
     PersonApi personApi = new PersonApiImpl(connectionFactory);

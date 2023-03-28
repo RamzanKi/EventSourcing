@@ -16,9 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeoutException;
 
-/**
- * Тут пишем реализацию
- */
+
 public class PersonApiImpl implements PersonApi {
 
   private final DataSource dataSource = DbUtil.buildDataSource();
